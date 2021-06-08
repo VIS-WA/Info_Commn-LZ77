@@ -7,17 +7,17 @@ Variants of L-Z codes was the algorithm of the widely used Unixfile compression 
 
 In (the window version of) Lempel Ziv algo, symbols(alphanumerics or any other) that have already been encoded are stored in a window.The encoder then looks at the next symbols to be encoded to find the longest string that is in the window that matches the source symbols to be encoded.
 
-Programmed Language: C++
-Suggested Compiler : g++(GCC)9.2.1
+## Programmed Language: C++
+## Suggested Compiler : g++(GCC)9.2.1
 
-INPUT FORMAT:
+## INPUT FORMAT:
 First line should be the text that needs to be compressed.(spaces can be included).Enter the complete text and only then press enter.
 Second line should be the size of window that's used as dictionary in the program.
 
-OUTPUT FORMAT:
+## OUTPUT FORMAT:
 the compressed code is printed with each entity printed on a new line
 
-CONSTRAINTS:
+## CONSTRAINTS:
 text size   < 2^32 - 1 (may depend on the architecture of the tester)
 window size < 2*10^9
 
