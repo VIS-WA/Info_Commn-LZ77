@@ -1,4 +1,4 @@
-# lz77
+# LZ77
 Lempel-Ziv Source Coding.
 
 Variants of L-Z codes was the algorithm of the widely used Unixfile compression utility compress as well as gzip. Several otherpopular compression utilities also used L-Z, or closely related encoding.
